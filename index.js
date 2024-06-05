@@ -11,7 +11,7 @@ const countdislikes2 = document.getElementById("countdislikes2")
 function hitLikes1() {
   let totalLikes1 = parseInt(countLikes1.value) + 1
  countLikes1.textContent = totalLikes1.toString()
-  let totaldislikes1 = parseInt(countdislikes1.value) + 0
+  let totaldislikes1 = parseInt(countdislikes1.value) - 1
  countDisLikes1.textContent = totaldislikes1.toString()
  }
 function hitLikes2() {
@@ -19,7 +19,7 @@ function hitLikes2() {
  countLikes2.textContent = totalLikes2.toString()
 }
 function hitLikes2() {
-  let totaldislikes2 = parseInt(countdislikes2.value) + 0
+  let totaldislikes2 = parseInt(countdislikes2.value) - 1
  countdisLikes2.textContent = totaldislikes2.toString()
 }
 
