@@ -27,6 +27,6 @@ function hitDisLikes2() {
 
 btnLike1.addEventListener("click",hitLikes1)
 btnLike2.addEventListener("click",hitLikes2)
-btnDisLike1.addEventListener("click",hitDisLikes1)
-btnDisLike2.addEventListener("click",hitDisLikes2)
+btnDisLikes1.addEventListener("click",hitDisLikes1)
+btnDisLikes2.addEventListener("click",hitDisLikes2)
   
