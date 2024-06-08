@@ -32,11 +32,10 @@ function hitdisLikes2() {
 }
 btndisLike2.addEventListener("click",hitdisLikes2)
 
-const submit = document .getElementById("Submit")
-const comment = document .getElementById("comment")
-const commentbox = document .getElementById("commentbox")
-
+const submit = document.getElementById("submit")
+const comment = document.getElementById("comment")
+const commentbox = document.getElementById("commentbox")
 function submitComment(){
-  commentbox.textContent += comment.value.toString()+"\n"
+  commentbox.textContent += comment.value.toString() +"\n"
 }
 submit.addEventListener("click",submitComment)
