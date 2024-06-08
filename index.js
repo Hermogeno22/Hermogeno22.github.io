@@ -35,8 +35,9 @@ function hitdisLikes2() {
   let totaldisLikes2 = parseInt(countdisLikes2.value) + 1
   countdisLikes2.textContent = totaldisLikes2.toString()
 }
+btndisLike2.addEventListener("click",hitdisLikes2)
+
 function submitComment(){
   commentbox.textContent+= comment.value.toString() + "\n"
 }
-
-btndisLike2.addEventListener("click",hitdisLikes2)
+submit.addEventListener("click",submitComment)
