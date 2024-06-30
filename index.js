@@ -21,7 +21,7 @@ function addOrder() {
     //carts.textContent += carts.value.toString() + "\n";
     carts.textContent += order
     totalOrder.value="";
-    
+    grep '\.js'
   }
 }
 qty1.addEventListener("keyup", addOrder);
