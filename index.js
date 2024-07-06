@@ -14,12 +14,7 @@ var products = [
           qty: document.getElementById('qty3'),
           price: parseFloat(document.getElementById('price3').textContent),
         },
-        {
-          product: document.getElementById('product4').textContent,
-          qty: document.getElementById('qty4'),
-          price: parseFloat(document.getElementById('price4').textContent),
-        },
-        {
+        
       ]
 
       var carts = document.getElementById('carts')
