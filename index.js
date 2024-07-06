@@ -20,16 +20,6 @@ var products = [
           price: parseFloat(document.getElementById('price4').textContent),
         },
         {
-          product: document.getElementById('product5').textContent,
-          qty: document.getElementById('qty5'),
-          price: parseFloat(document.getElementById('price5').textContent),
-        },
-        {
-          
-          product: document.getElementById('product6').textContent,
-          qty: document.getElementById('qty6'),
-          price: parseFloat(document.getElementById('price6').textContent),
-        },
       ]
 
       var carts = document.getElementById('carts')
